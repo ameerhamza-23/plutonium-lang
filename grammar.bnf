@@ -8,7 +8,7 @@
 <ifElifElseStmt> ::= <ifElifStmt> "else" <block>
 <forLoop> ::= "for(var " <alnum> "=" <expr> " to " <expr> " step " <expr> ")" <block> | "for(" <alnum> "=" <expr> " to " <expr> " step " <expr> ")" <block>
 <forEachLoop> ::= "foreach(var " <alnum> ": " <expr> ")" <block>
-<whileLoop> ::= "while(" <expr> ")" <block>
+<whileLoop> ::= "while
 <doWhileLoop> ::= "dowhile(" <expr> ")" <block>
 <funDecl> ::= "function " <alnum> "(" <commaSeperatedVars> ")" <block>
 <classDecl> ::= "class " <alnum> <block> | "class " <alnum> " extends " <alnum> <block>
